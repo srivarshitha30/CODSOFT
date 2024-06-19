@@ -26,9 +26,5 @@ if length < 4:
         print("Password length should be at least 4 characters to include a mix of character types.")
         return
     password = generate_password(length)
-
-    # Display the generated password
     print(f"Generated password: {password}")
-
-# Run the password generator
 main()
